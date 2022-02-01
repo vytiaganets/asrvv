@@ -1,0 +1,16 @@
+@extends('layouts.app')
+
+@section('title-block')Всі повідомлення@endsection
+
+@section('content')
+<h1>Всі повідомлення</h1>
+
+@foreach($data as $el)
+    <div class='alert alert-info'>
+        <h3>{{ $el->subject }}</h3>
+        <p>{{ $el->email }}</p>
+        <p><small>{{ $el->cretad_at }}</small></p>
+        <a href="#"><button class="btn btn-warning">Детальніше</button></a>
+</div>
+@endforeach
+@endsection
