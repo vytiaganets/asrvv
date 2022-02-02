@@ -13,6 +13,7 @@ git clone
 npm i
 npm run dev
 npm run watch
+php artisan key:generate
 php artisan make:controller ContactControler
 php artisan make:request ContactRequest
 php artisan make:model Contact -m

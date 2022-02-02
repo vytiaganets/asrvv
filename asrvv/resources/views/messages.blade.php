@@ -9,8 +9,8 @@
     <div class='alert alert-info'>
         <h3>{{ $el->subject }}</h3>
         <p>{{ $el->email }}</p>
-        <p><small>{{ $el->cretad_at }}</small></p>
-        <a href="#"><button class="btn btn-warning">Детальніше</button></a>
+        <p><small>{{ $el->created_at }}</small></p>
+        <a href="{{ route('contact-data-one', $el->id) }}"><button class="btn btn-warning">Детальніше</button></a>
 </div>
 @endforeach
 @endsection

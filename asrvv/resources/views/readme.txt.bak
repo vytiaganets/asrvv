@@ -20,3 +20,5 @@ php artisan migrate
 php artisan migrate:rollback --step=3
 php artisan migrate:reset
 php artisan config:cache
+(Pfxtv_gfhjkm)1
+admin_dpsz
